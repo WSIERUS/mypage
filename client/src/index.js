@@ -9,3 +9,10 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+const formRoot = ReactDOM.createRoot(document.getElementById('form-root'));
+formRoot.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

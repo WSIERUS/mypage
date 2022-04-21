@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      Jazda!!! AU!!!
+      Tutaj będzie formularz
     </div>
   );
 }
