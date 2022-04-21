@@ -4,16 +4,25 @@ import './index.css';
 import App from './App';
 import Form from './Form'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function renderRoot() {
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+}
 
-const formRoot = ReactDOM.createRoot(document.getElementById('form-root'));
-formRoot.render(
-  <React.StrictMode>
-    <Form />
-  </React.StrictMode>
-);
+function renderFormRoot() {
+  const formRoot = ReactDOM.createRoot(document.getElementById('form-root'));
+  formRoot.render(
+    <React.StrictMode>
+      <Form />
+    </React.StrictMode>
+  );
+}
+
+renderRoot()
+renderFormRoot()
+
+
