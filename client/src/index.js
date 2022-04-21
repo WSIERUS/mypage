@@ -13,6 +13,6 @@ root.render(
 const formRoot = ReactDOM.createRoot(document.getElementById('form-root'));
 formRoot.render(
   <React.StrictMode>
-    <App />
+    <Form />
   </React.StrictMode>
 );
