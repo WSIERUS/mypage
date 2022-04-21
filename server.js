@@ -8,16 +8,17 @@ const app = express();
 app.engine('html', require('ejs').renderFile);
 app.set('views engine', 'html');
 
-// var mainRoute = require('./routes/main.js');
-
 app.get('/', (req, res) => {
   res.sendFile('index.html', {
     root: path.join(__dirname + '/client/build')
   });
 });
 
-
-// app.use('/', mainRoute);
+app.get('/formularz', (req, res) => {
+  res.sendFile('form.html', {
+    root: path.join(__dirname + '/client/build')
+  })
+})
 
 app.use(express.static(__dirname + '/client/build'));
 
