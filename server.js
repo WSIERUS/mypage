@@ -1,5 +1,6 @@
 const path = require('path');
 const express = require("express");
+const router = express.Router()
 
 const PORT = process.env.PORT || 3001;
 
@@ -8,11 +9,9 @@ const app = express();
 app.engine('html', require('ejs').renderFile);
 app.set('views engine', 'html');
 
-app.get('/', (req, res) => {
-  res.sendFile('index.html', {
-    root: path.join(__dirname + '/client/build')
-  });
-});
+var mainRoute = require('./routes/main.js');
+
+app.use('/', mainRoute);
 
 app.use(express.static(__dirname + '/client/build'));
 
