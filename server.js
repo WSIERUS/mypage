@@ -10,11 +10,11 @@ app.set('views engine', 'html');
 
 app.get('/', (req, res) => {
   res.sendFile('index.html', {
-    root: path.join(__dirname + '/client/public')
+    root: path.join(__dirname + '/build/public')
   });
 });
 
-app.use(express.static(path.resolve(__dirname, '../client/public')));
+app.use(express.static(path.resolve(__dirname, '../build/public')));
 
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
