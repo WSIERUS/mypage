@@ -1,12 +1,12 @@
 const express = require('express')
 const router = express.Router();
 
-router.get('*', (req, res) => {
+router.get('/', (req, res) => {
+  res.send('Route działa')
+})
+
+outer.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
 });
-
-router.get('/', (req, res) => {
-  res.render('index')
-})
 
 module.exports = router
