@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Form from './Form'
@@ -9,20 +9,8 @@ function renderRoot() {
   root.render(
     <React.StrictMode>
       <App />
+      {fetch('/form', {}).then(
+        () => <Form/>
+      )}
     </React.StrictMode>
-  );
-}
-
-function renderFormRoot() {
-  const formRoot = ReactDOM.createRoot(document.getElementById('form-root'));
-  formRoot.render(
-    <React.StrictMode>
-      <Form />
-    </React.StrictMode>
-  );
-}
-
-renderRoot()
-renderFormRoot()
-
-
+  )}
