@@ -9,8 +9,8 @@ function renderRoot() {
   root.render(
     <React.StrictMode>
       <App />
-      {fetch('/form', {}).then(
-        () => <Form/>
-      )}
     </React.StrictMode>
-  )}
+  )
+}
+
+// Tutaj będzie obsługa react router - walić

@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/formularz', (req, res) => {
-  res.sendFile('form.html', {
+  res.sendFile('index.html', {
     root: path.join(__dirname + '/client/build')
   })
 })
