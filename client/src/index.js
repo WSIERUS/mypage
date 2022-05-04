@@ -4,16 +4,16 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './index.css';
 
-import App from './App';
-import Form from './Form'
+import Main from './Pages/Main';
+import Form from './Pages/Form'
 
 function renderRoot() {
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App/>}/>
-        <Route path='form' element={<Form/>}/>
+        <Route path='/' element={< Main />} />
+        <Route path='form' element={< Form />} />
       </Routes>
     </BrowserRouter>
   )
