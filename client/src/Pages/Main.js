@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Head from '../Layouts/Head'
+
 function Main() {
   return (
-    'strona'
+    <Head />
   );
 }
 
