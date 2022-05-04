@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/formularz', (req, res) => {
+app.get('/form', (req, res) => {
   res.sendFile('index.html', {
     root: path.join(__dirname + '/client/build')
   })
