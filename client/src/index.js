@@ -12,3 +12,4 @@ function renderRoot() {
   )
 }
 
+renderRoot()
