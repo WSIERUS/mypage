@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
 
+import context from '../Context'
+
 import './styles/Head.css'
 
-import Logo from '../Components/Logo'
-import Button from '../Components/Button'
-import context from '../Context'
+import Button from '../Components/NaviButton'
+import NightMode from '../Components/NightMode'
+
 
 const Head = () => {
 
@@ -14,10 +16,19 @@ const Head = () => {
 
   return(
     <div className='head-bar'>
-      <Logo />
+
       <div className='head-navi-buttons'>
-        {headNaviButtons.map(button => <Button name={button.name} link={button.link} key={button.id}/>)}
+
+        {headNaviButtons.map(button => <Button // Generowanie przycisków na górze strony na podstawie kontekstu
+          name={button.name} 
+          scrollToPlace={button.scrollToPlace} 
+          key={button.id}
+        />)}
+
       </div>
+
+      <NightMode />
+
     </div>
   )
 }

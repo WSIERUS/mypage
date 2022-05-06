@@ -1,0 +1,15 @@
+.head-navi-button, .head-navi-button-moved {
+  margin: 1px;
+  border: 1px none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  font-size: 15px;
+  font-family: monospace;
+  color: #ececec;
+  cursor: pointer;
+}
+
+.head-navi-button-moved {
+  border-bottom: 1px solid #ececec;
+}
+/*# sourceMappingURL=Button.css.map */

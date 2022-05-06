@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
 
-const Button = ({name, link}) => {
+import './styles/Button.css'
+
+const Button = ({name, scrollToPlace}) => {
 
   const [isMoved, setIsMoved] = useState(false)
 
@@ -9,16 +10,21 @@ const Button = ({name, link}) => {
     setIsMoved(trueOrFalse)
   }
 
+  function handleClickButton(place) {
+    console.log(`scrollowanie do ${place}`) // Brakuje jeszcze funkcji scroll bo nie ma struktury strony
+  }
+
   return(
-    <Link to={link}>
+
     <button 
       className={isMoved ? 'head-navi-button-moved' : "head-navi-button"}
       onMouseEnter={() => handleMoveButton(true)}
       onMouseLeave={() => handleMoveButton(false)}
+      onClick={() => handleClickButton(scrollToPlace)}
     >
       {name}
     </button>
-    </Link>
+
   )
 }
 
