@@ -8,7 +8,9 @@ import Main from './Pages/Main';
 import Form from './Pages/Form'
 
 function renderRoot() {
+
   const root = ReactDOM.createRoot(document.getElementById('root'));
+
   root.render(
     <BrowserRouter>
       <Routes>

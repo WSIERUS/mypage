@@ -2,8 +2,12 @@ import { createContext } from "react";
 
 const store = {
   headNaviButtons : [
-    {name:'przykład', link:'/form'}
+    {id:0 ,name:'przykład', link:'/form'}
   ]
 }
 
-const Store = createContext()
+const context = createContext(store)
+
+const contextProvider = context.Provider
+
+export default context

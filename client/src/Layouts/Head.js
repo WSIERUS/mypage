@@ -1,16 +1,24 @@
-import React from 'react'
+import React, { useContext } from 'react'
+
+import './styles/Head.css'
 
 import Logo from '../Components/Logo'
 import Button from '../Components/Button'
+import context from '../Context'
 
 const Head = () => {
+
+  const Context = useContext(context)
+
+  const {headNaviButtons} = Context
+
   return(
-    <React.Fragment>
+    <div className='head-bar'>
       <Logo />
       <div className='head-navi-buttons'>
-        <Button name={'name'} link={'/form'}/>
+        {headNaviButtons.map(button => <Button name={button.name} link={button.link} key={button.id}/>)}
       </div>
-    </React.Fragment>
+    </div>
   )
 }
 
