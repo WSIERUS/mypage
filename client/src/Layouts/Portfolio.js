@@ -1,11 +1,11 @@
 import React from "react";
 
-const Footer = () => {
+const Portfolio = () => {
   return(
     <div>
-      Footer
+      Portfolio
     </div>
   )
 }
 
-export default Footer
+export default Portfolio
