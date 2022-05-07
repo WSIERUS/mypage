@@ -8,6 +8,7 @@ import ContactWithUs from '../Layouts/ContactWithUs';
 import Footer from '../Layouts/Footer'
 
 function Main() {
+
   return (
     <React.Fragment>
       <Head />

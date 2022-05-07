@@ -2,12 +2,12 @@ import React from "react";
 
 import './styles/ContactWithUs.css'
 
-const MiddleForRecruiter = () => {
+const ContactWithUs = () => {
   return(
-    <div className="contactwithus">
+    <div className="contactwithus" id='contactwithus'>
       Kontakt
     </div>
   )
 }
 
-export default MiddleForRecruiter
+export default ContactWithUs

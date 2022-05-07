@@ -4,7 +4,9 @@ import './styles/ForClient.css'
 
 const ForClient  = () => {
   return(
-    <div className="forclient">Dla klientów</div>
+    <div className="forclient" id="forclient">
+      Dla klientów
+    </div>
   )
 }
 
