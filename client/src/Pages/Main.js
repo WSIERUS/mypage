@@ -3,8 +3,8 @@ import React from 'react'
 import Head from '../Layouts/Head'
 import AboutMe from '../Layouts/AboutMe'
 import Portfolio from '../Layouts/Portfolio';
-import MiddleForBusinessman from '../Layouts/MiddleForBusinessman';
-import MiddleForRecruiter from '../Layouts/MiddleForRecruiter';
+import ForClient from '../Layouts/ForClient';
+import ContactWithUs from '../Layouts/ContactWithUs';
 import Footer from '../Layouts/Footer'
 
 function Main() {
@@ -13,8 +13,8 @@ function Main() {
       <Head />
       <AboutMe />
       <Portfolio />
-      <MiddleForBusinessman />
-      <MiddleForRecruiter />
+      <ForClient />
+      <ContactWithUs />
       <Footer />
     </React.Fragment>
   );

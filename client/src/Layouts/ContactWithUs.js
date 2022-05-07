@@ -1,8 +1,12 @@
 import React from "react";
 
+import './styles/ContactWithUs.css'
+
 const MiddleForRecruiter = () => {
   return(
-    <div>MiddleForRecruiter</div>
+    <div className="contactwithus">
+      Kontakt
+    </div>
   )
 }
 

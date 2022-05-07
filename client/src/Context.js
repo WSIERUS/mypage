@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 const store = {
   headNaviButtons : [
-    {id:0, name:'przykład', scrollToPlace:'/form'},
+    {id:0, name:'przykład', scrollToPlace: ''},
   ]
 }
 
