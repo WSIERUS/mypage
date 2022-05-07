@@ -5,7 +5,10 @@ import './styles/ForClient.css'
 const ForClient  = () => {
   return(
     <div className="forclient" id="forclient">
-      Dla klientów
+      <article>
+        Jakieś mądre marketingowe słowa
+      </article>
+      <img src="" alt="" />
     </div>
   )
 }
