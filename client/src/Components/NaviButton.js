@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import './styles/Button.css'
+import './styles/NaviButton.css'
 
 const Button = ({name, scrollToPlace}) => {
 

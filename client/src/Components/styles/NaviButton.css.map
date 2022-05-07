@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAUA,AAVA,iBAUiB,EAGjB,uBAAuB,CAbD;EACpB,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,QAAQ;EAChB,gBAAgB,EAAE,gBAAgB;EAClC,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,SAAS;EACtB,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;CAAG;;AAKpB,AAAA,uBAAuB,CAAC;EAEtB,aAAa,EAAE,iBAAiB;CAAG",
     "sources": [
-        "Button.sass"
+        "NaviButton.sass"
     ],
     "names": [],
-    "file": "Button.css"
+    "file": "NaviButton.css"
 }
