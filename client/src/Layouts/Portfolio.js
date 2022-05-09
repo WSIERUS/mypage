@@ -1,11 +1,13 @@
 import React from "react";
 
+import PortfolioApp from "../Components/PortfolioApp";
+
 import './styles/Portfolio.css'
 
 const Portfolio = () => {
   return(
     <div className="portfolio" id="portfolio">
-      Portfolio
+      <PortfolioApp />
     </div>
   )
 }

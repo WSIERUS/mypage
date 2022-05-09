@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,MAAM,EAAE,WAAW;EACnB,KAAK,EAAE,GAAG;CAAG",
+    "sources": [
+        "FooterDescription.sass"
+    ],
+    "names": [],
+    "file": "FooterDescription.css"
+}
