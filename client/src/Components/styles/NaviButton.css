@@ -3,8 +3,9 @@
   border: 1px none;
   background-color: rgba(0, 0, 0, 0);
   padding: 5px;
-  font-size: 15px;
+  font-size: 17px;
   font-family: monospace;
+  font-weight: bold;
   color: #ececec;
   cursor: pointer;
 }

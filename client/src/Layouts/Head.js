@@ -5,7 +5,6 @@ import context from '../Context'
 import './styles/Head.css'
 
 import Button from '../Components/NaviButton'
-import NightMode from '../Components/NightMode'
 
 
 const Head = () => {
@@ -26,8 +25,6 @@ const Head = () => {
         />)}
 
       </div>
-
-      <NightMode />
 
     </div>
   )

@@ -12,16 +12,19 @@ const Button = ({name, scrollToPlace}) => {
   }
 
   return(
+    <Link to={scrollToPlace} spy={true} smooth={true}>
 
-    <button 
-      className={isMoved ? 'head-navi-button-moved' : "head-navi-button"}
-      onMouseEnter={() => handleMoveButton(true)}
-      onMouseLeave={() => handleMoveButton(false)}
-    >
-      <Link to={scrollToPlace} spy={true} smooth={true}>
+      <button 
+        className={isMoved ? 'head-navi-button-moved' : "head-navi-button"}
+        onMouseEnter={() => handleMoveButton(true)}
+        onMouseLeave={() => handleMoveButton(false)}
+      >
+        
         {name}
-      </Link>
-    </button>
+
+      </button>
+
+    </Link>
 
   )
 }
