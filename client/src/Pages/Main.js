@@ -17,6 +17,6 @@ function Main() {
       <Footer />
     </React.Fragment>
   );
-} // portfolio, dla klientów, dla rekruterów, stopka
+} // portfolio, dla klientów, stopka
 
 export default Main;

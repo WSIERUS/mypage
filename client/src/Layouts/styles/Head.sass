@@ -1,14 +1,25 @@
-.head-bar
+%Default-Head-Bar
   height: 1.5cm
   width: 100%
-  background-color: #4b8d00
   position: fixed
   display: flex
   flex-direction: row
   justify-content: center
   align-items: center
 
+.head-bar
+  @extend %Default-Head-Bar
+  background-color: rgb(0, 58, 124)
+  transition-duration: 0.3s
+  transition-property: background-color
+
+.head-bar-opacity
+  @extend %Default-Head-Bar
+  background-color: rgba(0, 139, 168, 0)
+  transition-duration: 0.3s
+  transition-property: background-color
+
 .head-navi-buttons
-  width: 50%
+  width: 20cm
   display: flex
-  justify-content: space-between
+  justify-content: space-evenly

@@ -5,7 +5,7 @@ import './styles/FooterDescription.css'
 const FooterDescription = () => {
   return(
     <div className="footer-description">
-      Opis
+      
     </div>
   )
 }

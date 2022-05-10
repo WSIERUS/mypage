@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 
 import context from '../Context'
 
@@ -13,8 +13,21 @@ const Head = () => {
 
   const {headNaviButtons} = Context
 
+  const [isScrolled, setIsScrolled] = useState(true)
+
+  function handleScrollChangeDesign() {
+    if(window.scrollY < 10) {
+      setIsScrolled(true)
+    }
+    else if(window.scrollY >= 10) {
+      setIsScrolled(false)
+    }
+  }
+
+  document.addEventListener('scroll', handleScrollChangeDesign)
+
   return(
-    <div className='head-bar'>
+    <div className={isScrolled ? 'head-bar-opacity' : 'head-bar'}>
 
       <div className='head-navi-buttons'>
 

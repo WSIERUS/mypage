@@ -1,7 +1,6 @@
-.head-bar {
+.head-bar, .head-bar-opacity {
   height: 1.5cm;
   width: 100%;
-  background-color: #4b8d00;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,13 +17,29 @@
           align-items: center;
 }
 
+.head-bar {
+  background-color: #003a7c;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.head-bar-opacity {
+  background-color: rgba(0, 139, 168, 0);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
 .head-navi-buttons {
-  width: 50%;
+  width: 20cm;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=Head.css.map */
