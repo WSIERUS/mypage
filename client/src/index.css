@@ -1,4 +1,20 @@
 body {
   margin: 0;
-  color: #ececec;
+  background: #222222;
+  color: white;
 }
+
+body::-webkit-scrollbar {
+  width: 0.67em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #222222;
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #003a7c;
+}
+/*# sourceMappingURL=Index.css.map */
