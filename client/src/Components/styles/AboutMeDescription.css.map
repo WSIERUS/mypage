@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU,CAAV,aAAU;EACR,EAAE;IACA,KAAK,EAAE,sBAAsB;;EAE/B,IAAI;IACF,KAAK,EAAE,KAAsB;;;;AAEjC,AAAA,oBAAoB,CAAC;EACnB,cAAc,EAAE,aAAa;EAC7B,kBAAkB,EAAE,EAAE;CAAG",
+    "sources": [
+        "AboutMeDescription.sass"
+    ],
+    "names": [],
+    "file": "AboutMeDescription.css"
+}

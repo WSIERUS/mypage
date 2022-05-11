@@ -7,10 +7,14 @@ const store = {
   },
   headNaviButtons : [
     {id:0, name:'O mnie', scrollToPlace: 'aboutme'},
-    {id:0, name:'Dla klientów', scrollToPlace: 'forclient'},
-    {id:0, name:'Portfolio', scrollToPlace: 'portfolio'},
+    {id:1, name:'Dla klientów', scrollToPlace: 'forclient'},
+    {id:2, name:'Portfolio', scrollToPlace: 'portfolio'},
   ],
-
+  aboutMeDescriptions:[
+    'Pierwszy opis',
+    'Drugi opis',
+    'Trzeci opis',
+  ]
 }
 
 const context = createContext(store)

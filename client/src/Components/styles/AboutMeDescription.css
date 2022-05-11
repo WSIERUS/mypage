@@ -1,0 +1,25 @@
+@-webkit-keyframes end-animation {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes end-animation {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.aboutme-description {
+  -webkit-animation-name: end-animation;
+          animation-name: end-animation;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+/*# sourceMappingURL=AboutMeDescription.css.map */
