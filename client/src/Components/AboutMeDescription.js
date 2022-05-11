@@ -6,32 +6,29 @@ import './styles/AboutMeDescription.css'
 
 let indexDescription = 0
 
+function handleChangeIndexDescription() {
+  if(indexDescription < 2) {
+    indexDescription++
+  }
+  else if(indexDescription >= 2) {
+    indexDescription = 0
+  }
+  
+} setInterval(handleChangeIndexDescription, 10000)
+
 const AboutMeDescription = () => {
   
   const Context = useContext(context)
 
   const {aboutMeDescriptions} = Context
 
-  const [description, setDescription] = useState(aboutMeDescriptions[(aboutMeDescriptions.length-1)])
+  const [refresh, setRefresh] = useState(false)
 
-  console.log(aboutMeDescriptions.length)
-
-  function handleChangeDescription() {
-    setDescription(aboutMeDescriptions[indexDescription])
-    if(indexDescription < (aboutMeDescriptions.length - 1)) {
-      indexDescription++
-      // console.log(indexDescription)
-    }
-    else if(indexDescription >= (aboutMeDescriptions.length - 1)) {
-      indexDescription = 0
-      // console.log(indexDescription)
-    }
-  }
-
-  setTimeout(handleChangeDescription, 5000)
+  setTimeout(()=>{setRefresh(!refresh)}, 1000)
 
   return(
-    <div className="aboutme-description">{description}</div>
+    aboutMeDescriptions.map(des => <div id={des.id} key={des.id} className='aboutme-description'>{des.description}</div>)
+      .filter(des => des.props.id === indexDescription)
   )
 }
 

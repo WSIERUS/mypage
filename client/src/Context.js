@@ -11,9 +11,9 @@ const store = {
     {id:2, name:'Portfolio', scrollToPlace: 'portfolio'},
   ],
   aboutMeDescriptions:[
-    'Pierwszy opis',
-    'Drugi opis',
-    'Trzeci opis',
+    {id:0, description: 'Profesjonalna wycena oraz analiza potrzeb klienta'},
+    {id:1, description: 'Strona dostosowana na urządzenia mobilne'},
+    {id:2, description: 'Solidna jakość obsługi klienta'},
   ]
 }
 
