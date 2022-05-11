@@ -36,9 +36,9 @@ const Head = () => {
           scrollToPlace={button.scrollToPlace} 
           key={button.id}
         />)}
-
+          
       </div>
-
+      
     </div>
   )
 }
