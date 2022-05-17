@@ -14,7 +14,7 @@ const ProcessStages = () => {
   const {processStages} = Context
 
   return(
-    <div className='processstages'>
+    <div className='processstages' id='processstages'>
       {processStages.map(stage => <ProcessStage key={stage.id} name={stage.name} id={stage.id}/>)}
       <ToFormButton/>
     </div>

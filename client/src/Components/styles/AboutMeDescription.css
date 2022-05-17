@@ -2,15 +2,22 @@
   0% {
     color: rgba(255, 255, 255, 0);
     text-shadow: none;
-    padding-bottom: 100px;
+    padding-right: 100px;
   }
-  50% {
-    color: rgba(255, 255, 255, 0.8);
-    padding-bottom: 0px;
-  }
-  100% {
+  30% {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-right: 0px;
+  }
+  70% {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 0;
+  }
+  100% {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: none;
+    padding-left: 100px;
   }
 }
 
@@ -18,23 +25,30 @@
   0% {
     color: rgba(255, 255, 255, 0);
     text-shadow: none;
-    padding-bottom: 100px;
+    padding-right: 100px;
   }
-  50% {
-    color: rgba(255, 255, 255, 0.8);
-    padding-bottom: 0px;
-  }
-  100% {
+  30% {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-right: 0px;
+  }
+  70% {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 0;
+  }
+  100% {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: none;
+    padding-left: 100px;
   }
 }
 
 .aboutme-description {
   -webkit-animation-name: end-animation;
           animation-name: end-animation;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  -webkit-animation-duration: 10.5s;
+          animation-duration: 10.5s;
   cursor: default;
 }
 /*# sourceMappingURL=AboutMeDescription.css.map */
