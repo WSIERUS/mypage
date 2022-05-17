@@ -1,20 +1,24 @@
 import { createContext } from "react";
 
 const store = {
+
   contact : {
     phone:'+48 668 107 846',
     email:'wojciechsieradzki35@gmail.com'
   },
+
   headNaviButtons : [
     {id:0, name:'START', scrollToPlace: 'aboutme'},
     {id:1, name:'KLIENT', scrollToPlace: 'forclient'},
     {id:2, name:'O NAS', scrollToPlace: 'portfolio'},
   ],
+
   aboutMeDescriptions : [
     {id:0, description: 'Profesjonalna wycena oraz analiza potrzeb klienta'},
     {id:1, description: 'Strona dostosowana na urządzenia mobilne'},
     {id:2, description: 'Solidna jakość obsługi klienta'},
   ],
+
   forClientArticles : [
     {
       id:0, src: null, 
@@ -49,7 +53,14 @@ const store = {
         'Dajemy gwarancję zadowolenia z oddanego produktu.',
       ],
     },
+  ],
+
+  processStages:[
+    {id:0, name:'Kontaktujemy się i ustalamy wstępne założenia'},
+    {id:1, name:'Analizujemy Twoje wymagania i przedstawiamy ofertę'},
+    {id:2, name:'Tworzymy i oddajemy gotową stronę'},
   ]
+
 }
 
 const context = createContext(store)

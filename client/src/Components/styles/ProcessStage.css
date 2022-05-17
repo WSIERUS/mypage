@@ -1,0 +1,25 @@
+.processstages-stage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.processstages-stage-arrow {
+  margin: 20px 0 20px 0;
+  height: 100px;
+  width: 0px;
+  border: 1px solid;
+}
+
+.processstages-stage-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+/*# sourceMappingURL=ProcessStage.css.map */

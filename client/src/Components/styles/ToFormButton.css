@@ -1,4 +1,30 @@
-.to-form-button {
+.to-form-button, .to-form-button-moved {
+  margin-top: 70px;
+  width: 300px;
+  height: 60px;
+  border: 1px solid;
+  border-radius: 15px;
+  font-size: 20px;
   cursor: pointer;
+}
+
+.to-form-button {
+  background-color: rgba(0, 58, 124, 0);
+  border-color: #d6d6d6;
+  color: #d6d6d6;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-property: background-color color border-color;
+  transition-property: background-color color border-color;
+}
+
+.to-form-button-moved {
+  background-color: #d6d6d6;
+  border-color: #003a7c;
+  color: #003a7c;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-property: background-color color border-color;
+  transition-property: background-color color border-color;
 }
 /*# sourceMappingURL=ToFormButton.css.map */

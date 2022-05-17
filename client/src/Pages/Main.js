@@ -2,8 +2,9 @@ import React from 'react'
 
 import Head from '../Layouts/Head'
 import AboutMe from '../Layouts/AboutMe'
-import Portfolio from '../Layouts/Portfolio';
 import ForClient from '../Layouts/ForClient';
+import ProcessStages from '../Layouts/ProcessStages';
+import Portfolio from '../Layouts/Portfolio';
 import Footer from '../Layouts/Footer'
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
       <Head />
       <AboutMe />
       <ForClient />
+      <ProcessStages/>
       <Portfolio />
       <Footer />
     </React.Fragment>
