@@ -1,4 +1,7 @@
 import { createContext } from "react";
+ 
+import Image1 from './Images/Cooding.jpg'
+import Image2 from './Images/BuisnessMeet.jpg'
 
 const store = {
 
@@ -13,6 +16,8 @@ const store = {
     {id:1, name:'KONTAKT', scrollToPlace: 'processstages'},
     {id:2, name:'O NAS', scrollToPlace: 'portfolio'},
   ],
+
+  backgroundImages : [Image1, Image2],
 
   aboutMeDescriptions : [
     {id:0, description: 'Profesjonalna wycena oraz analiza potrzeb klienta'},

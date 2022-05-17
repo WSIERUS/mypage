@@ -1,19 +1,18 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+
+import context from '../Context'
 
 import AboutMeDescription from "../Components/AboutMeDescription";
 
 import './styles/AboutMe.css'
 
-// import Video from '../Video/Text.MOV'
-
-import BuisnessMeetImage from '../Images/BuisnessMeet.jpg'
-import CoodingImage from '../Images/Cooding.jpg'
-
 let indexImage = 0
 
 const AboutMe = () => {
 
-  const imageArray = [BuisnessMeetImage, CoodingImage]
+  const Context = useContext(context)
+
+  const imageArray = Context.backgroundImages
 
   const [image, setImage] = useState(imageArray[(imageArray.length-1)])
 
