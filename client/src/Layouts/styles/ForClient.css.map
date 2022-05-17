@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;CAAG",
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,WAAW;EACnB,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAO;CAAG",
     "sources": [
         "ForClient.sass"
     ],

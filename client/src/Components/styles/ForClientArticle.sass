@@ -1,0 +1,21 @@
+%Forclient-Article
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+
+.forclient-article-right
+  @extend %Forclient-Article
+  flex-direction: row
+
+.forclient-article-left
+  @extend %Forclient-Article
+  flex-direction: row-reverse
+
+.forclient-article-description
+  font-family: monospace
+  font-size: 16px
+  color: rgb(0, 58, 124)
+
+.forclient-article-img
+  width: 5cm
+  height: 5cm

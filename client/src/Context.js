@@ -1,7 +1,9 @@
 import { createContext } from "react";
 
+import Test from './Icons/Mouse.png'
+
 const store = {
-  contact: {
+  contact : {
     phone:'+48 668 107 846',
     email:'wojciechsieradzki35@gmail.com'
   },
@@ -10,10 +12,14 @@ const store = {
     {id:1, name:'Dla klientów', scrollToPlace: 'forclient'},
     {id:2, name:'Portfolio', scrollToPlace: 'portfolio'},
   ],
-  aboutMeDescriptions:[
+  aboutMeDescriptions : [
     {id:0, description: 'Profesjonalna wycena oraz analiza potrzeb klienta'},
     {id:1, description: 'Strona dostosowana na urządzenia mobilne'},
     {id:2, description: 'Solidna jakość obsługi klienta'},
+  ],
+  forClientArticles : [
+    {id:0, src: Test, description:'Opis testowy post 1'},
+    {id:1, src: Test, description:'Opis testowy post 2'},
   ]
 }
 
