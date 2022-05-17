@@ -12,7 +12,7 @@ const ToFormButton = () => {
   }
 
   return(
-    <Link to={'form'}>
+    <Link to={'form'} className='to-form-button-position'>
       <button 
         className={isMoved ? "to-form-button-moved" : "to-form-button"}
         onMouseEnter={() => handleButtonMove(true)}
