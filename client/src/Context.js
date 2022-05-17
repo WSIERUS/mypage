@@ -3,6 +3,11 @@ import { createContext } from "react";
 import Image1 from './Images/Cooding.jpg'
 import Image2 from './Images/BuisnessMeet.jpg'
 
+import RWDImage from './Icons/RWD.png'
+import ProfitImage from './Icons/Profit.png'
+import MoneyImage from './Icons/Money.png'
+import StarsImage from './Icons/Stars.png'
+
 const store = {
 
   contact : {
@@ -27,7 +32,7 @@ const store = {
 
   forClientArticles : [
     {
-      id:0, src: null, 
+      id:0, src: RWDImage, 
       title:'Dostosowanie na urządzenia mobilne', 
       descriptions:[
         'Nawet 80% użytkowników odwiedzających strony internetowe korzysta z smartfonu.',
@@ -35,7 +40,7 @@ const store = {
       ],
     },
     {
-      id:1, src: null, 
+      id:1, src: ProfitImage, 
       title:'Profesjonalna analiza potrzeb twojego klienta', 
       descriptions:[
         'Dostosowanie strony w odpowiedni sposób nie tylko pozwoli zwiększyć portfel klientów ale również podnieść poziom zadowolenia z oferowanych usług.',
@@ -43,7 +48,7 @@ const store = {
       ],
     },
     {
-      id:2, src: null, 
+      id:2, src: MoneyImage, 
       title:'Odpowiednia wycena', 
       descriptions:[
         'Do każdego projektu podchodzimy indywidualnie i szukamy odpowiednich rozwiązań',
@@ -52,7 +57,7 @@ const store = {
       ],
     },
     {
-      id:3, src: null, 
+      id:3, src: StarsImage, 
       title:'Obsługa po zakończonym projekcie', 
       descriptions:[
         'Możesz liczyć na naszą pomoc nawet po zakończonym projekcie.',
