@@ -4,7 +4,7 @@ import './styles/Form.css'
 
 function Form() {
   return (
-    <form className="form">
+    <form className="form" method='post'>
 
       <div>Zostaw do siebie kontakt. Oddzwonimy!</div>
 

@@ -20,6 +20,11 @@ app.get('/form', (req, res) => {
   })
 })
 
+app.post('/form', (req, res) => {
+  console.log(req,res)
+  res.end()
+})
+
 app.use(express.static(__dirname + '/client/build'));
 
 app.listen(PORT, () => {
