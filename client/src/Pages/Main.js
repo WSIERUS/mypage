@@ -5,11 +5,10 @@ import Start from '../Layouts/Start'
 import ForClient from '../Layouts/ForClient';
 import ProcessStages from '../Layouts/ProcessStages';
 import AboutUs from '../Layouts/AboutUs';
-import Portfolio from '../Layouts/Portfolio';
+// import Portfolio from '../Layouts/Portfolio';
 import Footer from '../Layouts/Footer'
 
 function Main() {
-
   return (
     <React.Fragment>
       <Head />
@@ -21,6 +20,6 @@ function Main() {
       <Footer />
     </React.Fragment>
   );
-} // portfolio, dla klientów, stopka
+}
 
 export default Main;

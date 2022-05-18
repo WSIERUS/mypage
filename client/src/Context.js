@@ -73,13 +73,13 @@ const store = {
   ],
 
   aboutUsArticles:[
-    {id:0, title:'Tytuł 1', descriptions:[
-      'Opis1-1',
-      'Opis1-2'
+    {id:0, title:'Kto tworzy strony?', descriptions:[
+      'Jestem jednoosbowym FullStack Web Developerem.',
+      'Tworzę strony na zlecenie klientów oraz dla własnych celów biznesowych.'
     ]},
-    {id:1, title:'Tytuł 2', descriptions:[
-      'Opis2-1',
-      'Opis2-2'
+    {id:1, title:'Tutaj będzie jakiś tytuł', descriptions:[
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!'
     ]},
   ]
 
