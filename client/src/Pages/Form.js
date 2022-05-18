@@ -10,27 +10,27 @@ function Form() {
 
       <div>
         <div>Imię</div>
-        <input type="text" />
+        <input type="text" name='name'/>
       </div>
 
       <div>
         <div>NIP</div>
-        <input type="number" />
+        <input type="number" name='nip'/>
       </div>
 
       <div>
         <div>Branża</div>
-        <input type="text" />
+        <input type="text" name='typebusiness'/>
       </div>
 
       <div>
         <div>Numer telefonu</div>
-        <input type='number'/>
+        <input type='number' name='phonenumber'/>
       </div>
 
       <div>
         <div>Adres E-mail</div>
-        <input type="email" />
+        <input type="email" name='email'/>
       </div>
 
       <input type="submit" name='submit' value='Wyślij!'/>
