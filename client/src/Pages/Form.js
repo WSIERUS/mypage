@@ -4,36 +4,36 @@ import './styles/Form.css'
 
 function Form() {
   return (
-    <form className="form" method='post' action='/sendform'>
+    <form className="contact-form" method='post' action='/sendform'>
 
-      <div>Zostaw do siebie kontakt. Oddzwonimy!</div>
+      <div className='contact-form-title'>Zostaw do siebie kontakt. Oddzwonimy!</div>
 
-      <div>
-        <div>Imię</div>
-        <input type="text" name='name'/>
+      <div className='contact-form-container'>
+        <div className='contact-form-name'>Imię</div>
+        <input type="text" name='name' className='contact-form-name-input'/>
       </div>
 
-      <div>
-        <div>NIP</div>
-        <input type="number" name='nip'/>
+      <div className='contact-form-container'>
+        <div className='contact-form-nip'>NIP</div>
+        <input type="number" name='nip' className='contact-form-nip-input'/>
       </div>
 
-      <div>
-        <div>Branża</div>
-        <input type="text" name='typebusiness'/>
+      <div className='contact-form-container'>
+        <div className='contact-form-typebusiness'>Branża</div>
+        <input type="text" name='typebusiness' className='contact-form-typebusiness-input'/>
       </div>
 
-      <div>
-        <div>Numer telefonu</div>
-        <input type='number' name='phonenumber'/>
+      <div className='contact-form-container'>
+        <div className='contact-form-phonenumber'>Numer telefonu</div>
+        <input type='number' name='phonenumber' className='contact-form-phonenumber-input'/>
       </div>
 
-      <div>
-        <div>Adres E-mail</div>
-        <input type="email" name='email'/>
+      <div className='contact-form-container'>
+        <div className='contact-form-email'>Adres E-mail</div>
+        <input type="email" name='email' className='contact-form-email-input'/>
       </div>
 
-      <input type="submit" name='submit' value='Wyślij!'/>
+      <input type="submit" name='submit' value='Wyślij!' className='contact-form-submitbutton'/>
 
     </form>
   );

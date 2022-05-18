@@ -26,7 +26,13 @@ app.get('/form', (req, res) => {
 })
 
 app.post('/sendform', (req, res) => {
-  console.log(req.body.name)
+  console.log(
+    `Imię : ${req.body.name}`,
+    `NIP : ${req.body.nip}`,
+    `Branża : ${req.body.typebusiness}`,
+    `Numer telefonu : ${req.body.phonenumber}`,
+    `Email : ${req.body.email}`
+  )
   res.sendStatus(200)
 })
 
