@@ -20,14 +20,14 @@ const StartDescription = () => {
   
   const Context = useContext(context)
 
-  const {aboutMeDescriptions} = Context
+  const {startDescriptions} = Context
 
   const [refresh, setRefresh] = useState(false)
 
   setTimeout(()=>{setRefresh(!refresh)}, 1000)
 
   return(
-    aboutMeDescriptions.map(des => <div id={des.id} key={des.id} className='start-description'>{des.description}</div>)
+    startDescriptions.map(des => <div id={des.id} key={des.id} className='start-description'>{des.description}</div>)
       .filter(des => des.props.id === indexDescription)
   )
 }

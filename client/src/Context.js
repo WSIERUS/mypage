@@ -24,7 +24,7 @@ const store = {
 
   backgroundImages : [Image1, Image2],
 
-  aboutMeDescriptions : [
+  startDescriptions : [
     {id:0, description: 'Profesjonalna wycena oraz analiza potrzeb klienta'},
     {id:1, description: 'Strona dostosowana na urządzenia mobilne'},
     {id:2, description: 'Solidna jakość obsługi klienta'},
@@ -70,6 +70,17 @@ const store = {
     {id:0, name:'Kontaktujemy się i ustalamy wstępne założenia'},
     {id:1, name:'Analizujemy Twoje wymagania i przedstawiamy ofertę'},
     {id:2, name:'Tworzymy i oddajemy gotową stronę'},
+  ],
+
+  aboutUsArticle:[
+    {id:0, title:'Tytuł 1', descriptions:[
+      'Opis1-1',
+      'Opis1-2'
+    ]},
+    {id:1, title:'Tytuł 2', descriptions:[
+      'Opis2-1',
+      'Opis2-2'
+    ]},
   ]
 
 }
