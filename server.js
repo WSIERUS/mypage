@@ -33,7 +33,8 @@ app.post('/sendform', (req, res) => {
     `Numer telefonu : ${req.body.phonenumber}`,
     `Email : ${req.body.email}`
   )
-  res.sendStatus(200)
+  res.write('Zgłoszenie wysłane')
+  setTimeout(res.redirect('/'), 2000)
 })
 
 app.use(express.static(__dirname + '/client/build'));
