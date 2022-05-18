@@ -8,7 +8,7 @@ const AboutUsArticle = ({title, descriptions}) => {
     <div className="aboutus-article">
       <div className="aboutus-article-title">{title}</div>
       <div className="aboutus-article-descriptions">
-        {descriptions.map(des => <div className="aboutus-article-description">{des}</div>)}
+        {descriptions.map(des => <div className="aboutus-article-description" key={des}>{des}</div>)}
       </div>
     </div>
   )

@@ -19,7 +19,7 @@ const store = {
     {id:0, name:'START', scrollToPlace: 'start'},
     {id:1, name:'KLIENT', scrollToPlace: 'forclient'},
     {id:1, name:'KONTAKT', scrollToPlace: 'processstages'},
-    {id:2, name:'O NAS', scrollToPlace: 'portfolio'},
+    {id:2, name:'O NAS', scrollToPlace: 'aboutus'},
   ],
 
   backgroundImages : [Image1, Image2],
@@ -72,7 +72,7 @@ const store = {
     {id:2, name:'Tworzymy i oddajemy gotową stronę'},
   ],
 
-  aboutUsArticle:[
+  aboutUsArticles:[
     {id:0, title:'Tytuł 1', descriptions:[
       'Opis1-1',
       'Opis1-2'

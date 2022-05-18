@@ -17,7 +17,7 @@ function Main() {
       <ForClient />
       <ProcessStages />
       <AboutUs />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Footer />
     </React.Fragment>
   );

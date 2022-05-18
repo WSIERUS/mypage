@@ -1,0 +1,22 @@
+.aboutus-arrow, .aboutus-arrow-moved, .aboutus-arrow-disable {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.aboutus-arrow {
+  color: #003a7c;
+  cursor: pointer;
+}
+
+.aboutus-arrow-moved {
+  color: black;
+  cursor: pointer;
+}
+
+.aboutus-arrow-disable {
+  color: rgba(0, 58, 124, 0.3);
+  cursor: default;
+}
+/*# sourceMappingURL=ChangeDisplayArrow.css.map */
