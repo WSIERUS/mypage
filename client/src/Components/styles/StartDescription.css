@@ -44,11 +44,11 @@
   }
 }
 
-.aboutme-description {
+.start-description {
   -webkit-animation-name: end-animation;
           animation-name: end-animation;
   -webkit-animation-duration: 10.5s;
           animation-duration: 10.5s;
   cursor: default;
 }
-/*# sourceMappingURL=AboutMeDescription.css.map */
+/*# sourceMappingURL=StartDescription.css.map */

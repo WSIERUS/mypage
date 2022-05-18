@@ -5,7 +5,7 @@
   transition-property: background-image;
 }
 
-.aboutme {
+.start {
   height: 100vh;
   border: 1px none;
   background-color: rgba(34, 34, 34, 0.8);
@@ -25,4 +25,4 @@
   font-family: monospace;
   font-size: 30px;
 }
-/*# sourceMappingURL=AboutMe.css.map */
+/*# sourceMappingURL=Start.css.map */

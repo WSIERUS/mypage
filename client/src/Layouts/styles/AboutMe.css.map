@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,mBAAmB,EAAE,IAAI;EACzB,mBAAmB,EAAE,gBAAgB;CAAG;;AAE1C,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,QAAQ;EAChB,gBAAgB,EAAE,qBAAqB;EACvC,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,SAAS;EACtB,SAAS,EAAE,IAAI;CAAG",
-    "sources": [
-        "AboutMe.sass"
-    ],
-    "names": [],
-    "file": "AboutMe.css"
-}

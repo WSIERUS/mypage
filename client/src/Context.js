@@ -16,7 +16,7 @@ const store = {
   },
 
   headNaviButtons : [
-    {id:0, name:'START', scrollToPlace: 'aboutme'},
+    {id:0, name:'START', scrollToPlace: 'start'},
     {id:1, name:'KLIENT', scrollToPlace: 'forclient'},
     {id:1, name:'KONTAKT', scrollToPlace: 'processstages'},
     {id:2, name:'O NAS', scrollToPlace: 'portfolio'},

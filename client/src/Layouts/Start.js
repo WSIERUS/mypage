@@ -2,13 +2,13 @@ import React, { useContext, useState } from "react";
 
 import context from '../Context'
 
-import AboutMeDescription from "../Components/AboutMeDescription";
+import StartDescription from "../Components/StartDescription";
 
-import './styles/AboutMe.css'
+import './styles/Start.css'
 
 let indexImage = 0
 
-const AboutMe = () => {
+const Start = () => {
 
   const Context = useContext(context)
 
@@ -30,11 +30,11 @@ const AboutMe = () => {
       transitionDuration: '1s',
       transitionProperty: 'background-image'
     }} className='bakcground-image'>
-      <div className="aboutme" id="aboutme">
-        <div><AboutMeDescription /></div>
+      <div className="start" id="start">
+        <div><StartDescription /></div>
       </div>
     </div>
   )
 }
 
-export default AboutMe
+export default Start

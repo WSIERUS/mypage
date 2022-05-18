@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Head from '../Layouts/Head'
-import AboutMe from '../Layouts/AboutMe'
+import Start from '../Layouts/Start'
 import ForClient from '../Layouts/ForClient';
 import ProcessStages from '../Layouts/ProcessStages';
 import Portfolio from '../Layouts/Portfolio';
@@ -12,7 +12,7 @@ function Main() {
   return (
     <React.Fragment>
       <Head />
-      <AboutMe />
+      <Start />
       <ForClient />
       <ProcessStages/>
       <Portfolio />

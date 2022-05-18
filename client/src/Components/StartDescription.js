@@ -2,7 +2,7 @@ import React, {useContext, useState} from "react";
 
 import context from "../Context";
 
-import './styles/AboutMeDescription.css'
+import './styles/StartDescription.css'
 
 let indexDescription = 0
 
@@ -16,7 +16,7 @@ function handleChangeIndexDescription() {
   
 } setInterval(handleChangeIndexDescription, 10000)
 
-const AboutMeDescription = () => {
+const StartDescription = () => {
   
   const Context = useContext(context)
 
@@ -27,9 +27,9 @@ const AboutMeDescription = () => {
   setTimeout(()=>{setRefresh(!refresh)}, 1000)
 
   return(
-    aboutMeDescriptions.map(des => <div id={des.id} key={des.id} className='aboutme-description'>{des.description}</div>)
+    aboutMeDescriptions.map(des => <div id={des.id} key={des.id} className='start-description'>{des.description}</div>)
       .filter(des => des.props.id === indexDescription)
   )
 }
 
-export default AboutMeDescription
+export default StartDescription
