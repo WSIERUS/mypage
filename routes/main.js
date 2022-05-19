@@ -10,6 +10,7 @@ router.get('/', (req, res) => {
 
 router.get('/toform', (req, res) => {
   console.log('toform')
+  res.end()
 })
 
 router.post('toform', (req, res) => {
