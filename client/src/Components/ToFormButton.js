@@ -17,8 +17,6 @@ const ToFormButton = () => {
         className={isMoved ? "to-form-button-moved" : "to-form-button"}
         onMouseEnter={() => handleButtonMove(true)}
         onMouseLeave={() => handleButtonMove(false)}
-        formAction='/toform'
-        formMethod="post"
       >
         To co zaczynamy?
       </button>
