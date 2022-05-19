@@ -20,6 +20,7 @@ app.use(express.static(__dirname + '/client/build'));
 
 app.use('/', mainRouter)
 app.use('form', formRouter)
+app.use('sendform', formRouter)
 
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
