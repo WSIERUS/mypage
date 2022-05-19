@@ -19,6 +19,14 @@ app.use(express.static(__dirname + '/client/build'));
 
 app.use('/', mainRouter)
 
+app.use((req, res, next) => {
+  next(createError(404))
+})
+
+app.use((err, req, res, next) => {
+  console.log(err, req, res, next)
+})
+
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
