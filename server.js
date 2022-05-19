@@ -10,31 +10,14 @@ app.use(bodyParser.json())
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const mainRouter = require('./routes/main')
+const formRouter = require('./routes/form')
+
 app.engine('html', require('ejs').renderFile);
 app.set('views engine', 'html');
 
-app.get('/', (req, res) => {
-  res.sendFile('index.html', {
-    root: path.join(__dirname + '/client/build')
-  });
-});
-
-app.get('/form', (req, res) => {
-  res.sendFile('index.html', {
-    root: path.join(__dirname + '/client/build')
-  })
-})
-
-app.post('/sendform', (req, res) => {
-  console.log(
-    `Imię : ${req.body.name}`,
-    `NIP : ${req.body.nip}`,
-    `Branża : ${req.body.typebusiness}`,
-    `Numer telefonu : ${req.body.phonenumber}`,
-    `Email : ${req.body.email}`
-  )
-  res.redirect('/')
-})
+app.use('/', mainRouter)
+app.use('form', formRouter)
 
 app.use(express.static(__dirname + '/client/build'));
 
