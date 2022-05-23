@@ -1,10 +1,22 @@
 %Default-Navi-Link
   color: #d6d6d6
   font-family: 'Poppins', sans-serif
+  margin: 0 0 20px 0
 
 .footer-navi-link
   @extend %Default-Navi-Link
+  padding: 0 1cm 0 0
+  transition-duration: 0.4s
+  transition-delay: 0.2s
+  transition-property: padding
 
 .footer-navi-link-moved
   @extend %Default-Navi-Link
-  padding-left: 1cm
+  padding: 0 0 0 1cm
+  transition-duration: 0.4s
+  transition-property: padding
+
+.footer-navi-link-disable
+  color: #b4b4b4
+  font-family: 'Poppins', sans-serif
+  margin: 0 0 20px 0

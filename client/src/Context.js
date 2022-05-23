@@ -11,6 +11,10 @@ import StarsImage from './Icons/Stars.png'
 const store = {
 
   contact : {
+    descriptions:[
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      'Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!'
+    ],
     phone:'+48 668 107 846',
     email:'wojciechsieradzki35@gmail.com'
   },
@@ -18,8 +22,8 @@ const store = {
   headNaviButtons : [
     {id:0, name:'START', scrollToPlace: 'start'},
     {id:1, name:'KLIENT', scrollToPlace: 'forclient'},
-    {id:1, name:'KONTAKT', scrollToPlace: 'processstages'},
-    {id:2, name:'O NAS', scrollToPlace: 'aboutus'},
+    {id:2, name:'KONTAKT', scrollToPlace: 'processstages'},
+    {id:3, name:'O NAS', scrollToPlace: 'aboutus'},
   ],
 
   backgroundImages : [Image1, Image2],
@@ -84,10 +88,11 @@ const store = {
   ],
 
   footerNaviLinks:[
-    {id:0, name:'Start', link:'/'},
-    {id:1, name:'Kontakt', link:'/form'},
-    {id:2, name:'Współpraca', link:'/cooperation'},
-    {id:3, name:'e-CV', link:'/cv'},
+    {id:0, name:'Start', link:'/', able: true},
+    {id:1, name:'Kontakt', link:'/form', able: true},
+    {id:2, name:'Współpraca', link:'/cooperation', able: false},
+    {id:3, name:'e-CV', link:'/cv', able: false},
+    {id:3, name:'Portfolio', link:'/portfolio', able: false},
   ]
 
 }

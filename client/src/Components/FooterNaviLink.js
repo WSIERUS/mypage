@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 import './styles/FooterNaviLink.css'
 
-const FooterNaviLink = ({name, link}) => {
+const FooterNaviLink = ({name, link, able}) => {
 
   const [isMoved, setIsMoved] = useState(false)
 
@@ -12,11 +12,14 @@ const FooterNaviLink = ({name, link}) => {
   }
 
   return(
-    <Link to={link} style={{
+    <Link to={ able ? link: __dirname } style={ able ? {
       textDecoration:'none'
+    } : {
+      textDecoration:'line-through',
+      textDecorationColor:'#b4b4b4'
     }}>
       <div 
-        className={isMoved ? "footer-navi-link-moved" : "footer-navi-link"}
+        className={able ? isMoved ? "footer-navi-link-moved" : "footer-navi-link" : 'footer-navi-link-disable'}
         onMouseEnter={()=>handleMoveButton(true)}
         onMouseLeave={()=>handleMoveButton(false)}
       >

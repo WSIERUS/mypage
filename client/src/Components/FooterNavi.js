@@ -14,7 +14,7 @@ const FooterNavi = () => {
 
   return(
     <div className="footer-navi">
-      {footerNaviLinks.map(naviLink => <FooterNaviLink key={naviLink.id} name={naviLink.name} link={naviLink.link}/>)}
+      {footerNaviLinks.map(naviLink => <FooterNaviLink key={naviLink.id} name={naviLink.name} link={naviLink.link} able={naviLink.able}/>)}
     </div>
   )
 }

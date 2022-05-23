@@ -1,9 +1,30 @@
 .footer-navi-link, .footer-navi-link-moved {
   color: #d6d6d6;
   font-family: 'Poppins', sans-serif;
+  margin: 0 0 20px 0;
+}
+
+.footer-navi-link {
+  padding: 0 1cm 0 0;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  -webkit-transition-property: padding;
+  transition-property: padding;
 }
 
 .footer-navi-link-moved {
-  padding-left: 1cm;
+  padding: 0 0 0 1cm;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-property: padding;
+  transition-property: padding;
+}
+
+.footer-navi-link-disable {
+  color: #b4b4b4;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 0 20px 0;
 }
 /*# sourceMappingURL=FooterNaviLink.css.map */
