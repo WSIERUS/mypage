@@ -13,7 +13,7 @@
 }
 
 .footer-div {
-  height: 80%;
+  height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,5 +27,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer-center-vertical-line {
+  height: 100%;
+  width: 0px;
+  border: 1px solid #d6d6d6;
 }
 /*# sourceMappingURL=Footer.css.map */

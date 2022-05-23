@@ -81,6 +81,13 @@ const store = {
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!'
     ]},
+  ],
+
+  footerNaviLinks:[
+    {id:0, name:'Start', link:'/'},
+    {id:1, name:'Kontakt', link:'/form'},
+    {id:2, name:'Współpraca', link:'/cooperation'},
+    {id:3, name:'e-CV', link:'/cv'},
   ]
 
 }

@@ -10,6 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-div">
         <FooterDescription/>
+        <div className="footer-center-vertical-line"></div>
         <FooterNavi/>
       </div>
     </div>
