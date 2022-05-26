@@ -29,9 +29,9 @@
 
 @media (max-width: 20cm) {
   .start {
-    font-size: 0.5cm;
+    height: 95vh;
+    font-size: 0.6cm;
     letter-spacing: 5px;
-    padding: 20px;
   }
 }
 /*# sourceMappingURL=Start.css.map */
