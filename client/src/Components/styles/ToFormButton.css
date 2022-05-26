@@ -28,4 +28,16 @@
   -webkit-transition-property: background-color color border-color;
   transition-property: background-color color border-color;
 }
+
+@media (max-width: 15cm) {
+  .to-form-button, .to-form-button-moved {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 10cm) {
+  .to-form-button, .to-form-button-moved {
+    width: 80vw;
+  }
+}
 /*# sourceMappingURL=ToFormButton.css.map */

@@ -16,4 +16,10 @@
           align-items: center;
   text-align: center;
 }
+
+@media (max-width: 20cm) {
+  .processstages {
+    padding: 100px 20px 100px 20px;
+  }
+}
 /*# sourceMappingURL=ProcessStages.css.map */

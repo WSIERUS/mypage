@@ -69,5 +69,11 @@
   .forclient-article {
     width: 100%;
   }
+  .forclient-article-title {
+    font-size: 17px;
+  }
+  .forclient-article-description {
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=ForClientArticle.css.map */
