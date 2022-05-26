@@ -18,4 +18,15 @@
 .head-navi-button-moved {
   border-bottom: 1px solid #ececec;
 }
+
+@media (max-width: 10cm) {
+  .head-navi-button, .head-navi-button-moved {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 0px;
+    text-shadow: none;
+    cursor: default;
+  }
+}
 /*# sourceMappingURL=NaviButton.css.map */

@@ -42,4 +42,14 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
+
+@media (max-width: 10cm) {
+  .head-bar, .head-bar-opacity {
+    height: 0px;
+    width: 0px;
+  }
+  .head-navi-buttons {
+    width: 0px;
+  }
+}
 /*# sourceMappingURL=Head.css.map */
