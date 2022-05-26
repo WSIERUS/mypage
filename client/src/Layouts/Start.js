@@ -27,6 +27,8 @@ const Start = () => {
   return(
     <div style={{
       backgroundImage: `url(${image})`,
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
       transitionDuration: '1s',
       transitionProperty: 'background-image'
     }} className='bakcground-image'>

@@ -51,4 +51,82 @@
           animation-duration: 10.5s;
   cursor: default;
 }
+
+@media (max-width: 25cm) {
+  @-webkit-keyframes end-animation {
+    0% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+    30% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    70% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    100% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+  }
+  @keyframes end-animation {
+    0% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+    30% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    70% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    100% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+  }
+}
+
+@media (max-width: 15cm) {
+  @-webkit-keyframes end-animation {
+    0% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+    20% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    80% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    100% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+  }
+  @keyframes end-animation {
+    0% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+    20% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    80% {
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    100% {
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+    }
+  }
+}
 /*# sourceMappingURL=StartDescription.css.map */

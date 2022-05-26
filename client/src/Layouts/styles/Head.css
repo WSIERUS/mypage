@@ -43,7 +43,7 @@
           justify-content: space-evenly;
 }
 
-@media (max-width: 10cm) {
+@media (max-width: 15cm) {
   .head-bar, .head-bar-opacity {
     height: 0px;
     width: 0px;
