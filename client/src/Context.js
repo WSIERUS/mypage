@@ -83,7 +83,6 @@ const store = {
     ]},
     {id:1, title:'Tutaj będzie jakiś tytuł', descriptions:[
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!'
     ]},
   ],
 
@@ -92,7 +91,7 @@ const store = {
     {id:1, name:'Kontakt', link:'/form', able: true},
     {id:2, name:'Współpraca', link:'/cooperation', able: false},
     {id:3, name:'e-CV', link:'/cv', able: false},
-    {id:3, name:'Portfolio', link:'/portfolio', able: false},
+    {id:4, name:'Portfolio', link:'/portfolio', able: false},
   ]
 
 }

@@ -20,6 +20,7 @@
 .aboutus-article-title {
   font-weight: bold;
   font-size: 20px;
+  text-align: center;
 }
 
 .aboutus-article-descriptions {
@@ -34,11 +35,21 @@
       -ms-flex-align: center;
           align-items: center;
   font-size: 16px;
+  text-align: center;
 }
 
 .aboutus-article-description {
   width: 100%;
   margin-top: 2px;
   text-align: center;
+}
+
+@media (max-width: 15cm) {
+  .aboutus-article-title {
+    font-size: 17px;
+  }
+  .aboutus-article-descriptions {
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=AboutUsArticle.css.map */

@@ -19,4 +19,10 @@
   color: rgba(0, 58, 124, 0.3);
   cursor: default;
 }
+
+@media (max-width: 15cm) {
+  .aboutus-arrow, .aboutus-arrow-moved, .aboutus-arrow-disable {
+    font-size: 30px;
+  }
+}
 /*# sourceMappingURL=ChangeDisplayArrow.css.map */
