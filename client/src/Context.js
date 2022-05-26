@@ -12,8 +12,11 @@ const store = {
 
   contact : {
     descriptions:[
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      'Quia enim, nihil sunt optio culpa illo fuga in officiis explicabo eveniet aliquid, mollitia quos laudantium et pariatur labore eos quasi exercitationem!'
+     "Tutaj będzie jakiś opis dotyczący czegoś czego jeszcze nie wiem.",
+     "Będzie napewno tutaj.",
+     "Strona w fazie testowej i developerskiej",
+     "Proszę nie hejtować dopóki strona nie będzie gotowa.",
+     "Narazie testowe jest działanie oraz układ strony dla urządzeń mobilnych"
     ],
     phone:'+48 668 107 846',
     email:'wojciechsieradzki35@gmail.com'
