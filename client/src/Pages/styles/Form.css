@@ -1,5 +1,11 @@
+.form {
+  background-color: #003a7c;
+  height: 100vh;
+}
+
 .contact-form {
   width: 100vw;
+  height: auto;
   background-color: #003a7c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,7 +23,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.contact-form-name-input, .contact-form-nip-input, .contact-form-typebusiness-input, .contact-form-phonenumber-input, .contact-form-email-input {
+.contact-form-input {
   width: 360px;
   height: 40px;
   border: 1px solid #d6d6d6;
@@ -84,7 +90,7 @@
 }
 
 @media (max-width: 15cm) {
-  .contact-form-name-input, .contact-form-nip-input, .contact-form-typebusiness-input, .contact-form-phonenumber-input, .contact-form-email-input {
+  .contact-form-input {
     width: 80vw;
   }
 }

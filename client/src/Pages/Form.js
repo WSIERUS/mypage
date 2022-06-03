@@ -64,6 +64,7 @@ function Form() {
   }
 
   return (
+    <div className='form'>
     <form className="contact-form" method='post' action='/form' onSubmit={handleSubmit}>
 
       <div className='contact-form-title'>Formularz kontaktowy</div>
@@ -72,7 +73,7 @@ function Form() {
         <div className='contact-form-name'>Imię</div>
         <input 
           type="text" name='name' onChange={handleChangeName} ref={nameRef}
-          value={name} className='contact-form-name-input'
+          value={name} className='contact-form-input'
         />
       </div>
 
@@ -80,7 +81,7 @@ function Form() {
         <div className='contact-form-name'>NIP</div>
         <input 
           type="text" name='nip' onChange={handleChangeNip}
-          value={nip} className='contact-form-nip-input'
+          value={nip} className='contact-form-input'
         />
       </div>
 
@@ -88,7 +89,7 @@ function Form() {
         <div className='contact-form-name'>Branża</div>
         <input 
           type="text" name='typebusiness' onChange={handleChangeTypebusiness}
-          value={typebusiness} className='contact-form-typebusiness-input'
+          value={typebusiness} className='contact-form-input'
         />
       </div>
 
@@ -96,7 +97,7 @@ function Form() {
         <div className='contact-form-name'>Numer telefonu</div>
         <input 
           type='text' name='phonenumber' onChange={handleChangePhonenumber}
-          value={`+48 ${phonenumber}`} className='contact-form-phonenumber-input'
+          value={`+48 ${phonenumber}`} className='contact-form-input'
         />
       </div>
 
@@ -104,7 +105,7 @@ function Form() {
         <div className='contact-form-name'>Adres E-mail</div>
         <input 
           type="email" name='email' onChange={handleChangeEmail}
-          value={email} className='contact-form-email-input'
+          value={email} className='contact-form-input'
         />
       </div>
 
@@ -115,6 +116,7 @@ function Form() {
       />
 
     </form>
+    </div>
   );
 }
 
