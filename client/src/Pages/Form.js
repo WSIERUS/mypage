@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 import './styles/Form.css'
 
@@ -12,6 +12,12 @@ function Form() {
   const [phonenumber, setPhonenumber] = useState('')
   const [email, setEmail] = useState('')
 
+  const nameRef = useRef(null)
+
+  useEffect(() => {
+    nameRef.current.focus()
+  }, [])
+
   function handleChangeName({target}) {
     const {value} = target
     if(value.length < 2) setName(value.toUpperCase())
@@ -22,10 +28,10 @@ function Form() {
     let {value} = target
     if(value.length <= 10 && value) {
       value = parseInt(value)
-      if(typeof value === 'number') {
+      if(!(value.toString() === 'NaN')) {
         setNip(value)
       }
-    } else if(!value) {setNip('')}
+    } else if(value.length < 1) {setNip('')}
   }
 
   function handleChangeTypebusiness({target}) {
@@ -36,10 +42,10 @@ function Form() {
     let number = target.value.slice(4)
     if(number.length <= 9 && number) {
       number = parseInt(number)
-      if(typeof number === 'number') {
+      if(!(number.toString() === 'NaN')) {
         setPhonenumber(number)
       }
-    } else if(!number || number === 'NaN') {setPhonenumber('')}
+    } else if(number.length < 1) {setPhonenumber('')}
   }
 
   function handleChangeEmail({target}) {
@@ -49,10 +55,9 @@ function Form() {
   function handleSubmit(event) {
     if(name && nip.toString().length === 10 && typebusiness && phonenumber.toString().length === 9 && email) {console.log('poprawne')}
     else {
-      event.preventDefault()``
+      event.preventDefault()
     }
   }
-
 
   function handleMoveButton(status) {
     setIsMoved(status)
@@ -66,7 +71,7 @@ function Form() {
       <div className='contact-form-container'>
         <div className='contact-form-name'>Imię</div>
         <input 
-          type="text" name='name' onChange={handleChangeName}
+          type="text" name='name' onChange={handleChangeName} ref={nameRef}
           value={name} className='contact-form-name-input'
         />
       </div>

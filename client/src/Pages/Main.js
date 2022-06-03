@@ -14,7 +14,15 @@ function Main() {
       <Head />
       <Start />
       <ForClient />
+      {/* <div style={{
+        backgroundImage: "linear-gradient(#d6d6d6, rgb(0, 58, 124))",
+        height: '10px'
+      }}></div> */}
       <ProcessStages />
+      {/* <div style={{
+        backgroundImage: "linear-gradient(rgb(0, 58, 124), #d6d6d6)",
+        height: '50px'
+      }}></div> */}
       <AboutUs />
       {/* <Portfolio /> */}
       <Footer />

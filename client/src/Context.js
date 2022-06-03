@@ -9,7 +9,7 @@ import MoneyImage from './Icons/Money.png'
 import StarsImage from './Icons/Stars.png'
 
 const store = {
-
+ 
   contact : {
     descriptions:[
      "Tutaj będzie jakiś opis dotyczący czegoś czego jeszcze nie wiem.",
